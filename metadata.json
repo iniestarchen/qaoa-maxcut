@@ -1,0 +1,33 @@
+{
+  "id": "qaoa-maxcut",
+  "name": "QAOA for MaxCut",
+  "category": "optimization",
+  "description": "Quantum Approximate Optimization Algorithm (p=1) for MaxCut on a 4-node cycle graph.",
+  "long_description": "QAOA is a variational hybrid quantum-classical algorithm for combinatorial optimization. It alternates between a problem Hamiltonian (phase separator) and a mixing Hamiltonian. This circuit implements p=1 QAOA for the MaxCut problem on a 4-node cycle graph (edges: 0-1, 1-2, 2-3, 3-0) with \u03b3=0.5 (phase) and \u03b2=0.3 (mixing). The parameters should be classically optimized to maximize the expected cut value.",
+  "difficulty": "advanced",
+  "qubit_count": 4,
+  "clbit_count": 4,
+  "gate_count": 20,
+  "depth": 10,
+  "tags": [
+    "qaoa",
+    "optimization",
+    "maxcut",
+    "variational",
+    "combinatorial"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "Probability distribution peaked on good MaxCut partitions (depends on \u03b3, \u03b2)",
+  "references": [
+    {
+      "title": "Farhi, Goldstone, Gutmann (2014). A Quantum Approximate Optimization Algorithm. arXiv:1411.4028",
+      "url": "https://arxiv.org/abs/1411.4028"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
