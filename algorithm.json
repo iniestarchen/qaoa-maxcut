@@ -1,0 +1,29 @@
+{
+  "slug": "qaoa-maxcut",
+  "name": "QAOA MaxCut",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Quantum Approximate Optimization Algorithm (p=1) for MaxCut on a graph.",
+  "industries": [
+    "optimization"
+  ],
+  "techniques": [
+    "vqa"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "qaoa",
+    "maxcut",
+    "optimization",
+    "variational"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 2014
+  }
+}
